@@ -1,0 +1,45 @@
+.btn {
+  @apply min-w-fit flex justify-center items-center text-white text-base font-semibold rounded-full transition-all px-5 py-3 md:text-lg md:px-7 md:py-3.5;
+
+  /* State */
+  &:disabled {
+    @apply opacity-30 cursor-not-allowed;
+  }
+  /* State */
+
+  /* Style */
+  &-link {
+    @apply text-default-600 p-0 hover:text-primary;
+  }
+
+  &-default {
+    @apply bg-default-50 text-default-600 hover:enabled:bg-default-100;
+  }
+
+  &-primary {
+    @apply bg-primary hover:enabled:bg-primary-dark;
+  }
+
+  &-danger {
+    @apply bg-danger hover:enabled:bg-danger-dark;
+  }
+
+  &-bordered {
+    @apply border border-default-100 p-3 md:p-3.5;
+
+    svg {
+      @apply w-4 h-4 md:w-6 md:h-6 text-default-500;
+    }
+  }
+  /* Style */
+
+  /* Other */
+  &-icon {
+    @apply text-xs gap-1 md:gap-2.5 md:text-lg px-4 py-2.5 md:px-7 md:py-3.5;
+
+    svg {
+      @apply w-4 h-4 text-white md:w-6 md:h-6;
+    }
+  }
+  /* Other */
+}

@@ -1,0 +1,29 @@
+.modal {
+  &-overlay {
+    @apply fixed top-0 left-0 w-full h-screen overflow-hidden bg-gray-900/50 flex justify-center items-center z-30;
+  }
+
+  &-container {
+    @apply w-full md:w-auto flex flex-col bg-white rounded-xl shadow-md mx-5;
+
+    &__fixed {
+      @apply w-full md:w-2/3 xl:w-3/5;
+    }
+  }
+
+  &-header {
+    @apply flex justify-between items-center border-b border-default-100 px-5.5 py-4.5 md:py-5 md:px-8;
+  }
+
+  &-body {
+    @apply flex-1 px-5.5 py-5 md:py-6 md:px-8;
+  }
+
+  &-text {
+    @apply text-center text-sm md:flex md:flex-col md:items-center md:text-lg mb-9 md:mb-10;
+  }
+
+  &-footer{
+    @apply flex justify-end items-center border-t border-default-100 px-5.5 py-4.5 md:py-5 md:px-8;
+  }
+}

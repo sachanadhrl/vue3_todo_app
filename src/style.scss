@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './assets/scss/abstracts/config';
+@import './assets/scss/abstracts/utils';
+@import './assets/scss/abstracts/transition';
+
+@import './assets/scss/components/button';
+@import './assets/scss/components/card';
+@import './assets/scss/components/dropdown';
+@import './assets/scss/components/form';
+@import './assets/scss/components/icon';
+@import './assets/scss/components/listbox';
+@import './assets/scss/components/modal';
+@import './assets/scss/components/navbar';

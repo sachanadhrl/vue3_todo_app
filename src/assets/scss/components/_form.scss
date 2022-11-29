@@ -1,0 +1,22 @@
+.form {
+
+  &-title {
+    @apply w-full md:max-w-lg bg-transparent border-0 text-base font-bold p-0 md:text-5xl focus:border-b focus:border-default-700 focus:ring-transparent;
+  }
+
+  &-group {
+     @apply flex flex-col gap-3 mb-7;
+  }
+
+  &-label {
+    @apply font-semibold uppercase text-xxs md:text-xs;
+  }
+
+  &-input {
+    @apply w-full h-[52px] border-default-100 text-sm md:text-base rounded-md py-4 px-4.5 placeholder:text-default-400;
+  }
+  
+  &-checkbox {
+    @apply lg:w-5 lg:h-5 focus:ring-0 checked:bg-primary checked:text-primary checked:hover:focus:bg-primary; 
+  }
+}

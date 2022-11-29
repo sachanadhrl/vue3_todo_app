@@ -1,0 +1,19 @@
+.icon {
+  @apply w-4.5 h-4.5;
+
+  &-sort-latest {
+    background-image: url(assets/img/icons/sort-latest.svg);
+  }
+  &-sort-oldest {
+    background-image: url(assets/img/icons/sort-oldest.svg);
+  }
+  &-sort-az {
+    background-image: url(assets/img/icons/sort-az.svg);
+  }
+  &-sort-za {
+    background-image: url(assets/img/icons/sort-za.svg);
+  }
+  &-sort {
+    background-image: url(assets/img/icons/sort.svg);
+  }
+}

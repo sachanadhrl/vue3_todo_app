@@ -1,0 +1,40 @@
+.fade {
+  &-enter-active,
+  &-leave-active {
+    @apply transition-all duration-300;
+  }
+
+  &-enter-from,
+  &-leave-to {
+    @apply opacity-0;
+  }
+}
+.slide-up {
+  &-enter-active,
+  &-leave-active {
+    @apply transition-all duration-300;
+  }
+
+  &-enter-from,
+  &-leave-to {
+    @apply translate-y-full;
+  }
+}
+.top-to-bottom {
+  &-enter-active,
+  &-leave-active {
+    @apply transition-all duration-100;
+  }
+
+  &-enter-active {
+    @apply opacity-100;
+  }
+
+  &-enter-from {
+    @apply -translate-y-full opacity-0;
+  }
+
+  &-leave-to {
+    @apply translate-y-full opacity-0;
+  }
+}

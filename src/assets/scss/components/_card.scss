@@ -1,0 +1,17 @@
+.card {
+  $this: &;
+
+  @apply w-full bg-white rounded-xl shadow-md text-sm px-[20px] py-[22px] transition-all lg:text-lg lg:p-7;
+
+  &__square {
+    @apply aspect-square overflow-hidden px-4 py-3.5 md:px-7 md:py-6;
+
+    #{$this}-title {
+      @apply font-bold line-clamp-3 sm:line-clamp-4 overflow-hidden;
+    }
+
+    #{$this}-footer {
+      @apply w-full flex justify-between items-center sticky top-full text-xxs md:text-sm text-default-500 font-medium;
+    }
+  }
+}
