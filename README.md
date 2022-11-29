@@ -5,3 +5,6 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 ## Recommended IDE Setup
 
 - [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+
+## Description
+This app fetch the data from [Gethired todo api endpoint](https://todo.api.devcode.gethired.id) using email as its parameter
